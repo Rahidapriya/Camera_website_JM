@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --primary-color: #3A3A3A;
+    --secondary-color-500:#18191F;
+    --sub-secondary-color-400:rgba(0, 0, 0, 0.87);
+    --sub2-secondary-color-700: #787885;
+    --ratting-color-700:#5E6366;
+     --primary-Font-family:Poppins;
+     --secondary-font-family:Inter;
+     --sub-secondary:Roboto;
+}
+header{
+    margin:3% 6%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    font-family:var(--primary-Font-family) ;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: var( --primary-color);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+   
+}
+ul{
+    display: flex;
+}
+ul li {
+    margin-right: 25px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: var( --primary-color);
+}
+.nav-link .fa{
+    margin-right: 25px;
+    color: #000000;
+    font-size: 23px;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.8rem 0;
+}
+.container-img{
+    position: relative;
+    
+   
+}
+svg{
+    position: absolute;
+    z-index: -1;
+    /* margin-left: 100%; */
+    
+    
+
+}
+.title-section{
+    padding-right:6rem ;
+}
+.title{
+
+font-size: 52px;
+font-weight: 700;
+line-height: 70px;
+color: var( --primary-color);
+font-family:var(--primary-Font-family) ;
+}
+.title-desp{
+    color: var( --primary-color);
+    font-family:var(--primary-Font-family) ;
+font-size: 16px;
+font-weight: 600;
+margin: 1.5rem 0;
+width: 70%;
+
+}
+.btn-style{
+    display: flex;
+    align-items: center;  
+   
+}
+.btn-style .fa{
+    font-size: 18px;
+    margin-left: -2.2rem;
+    color: #FFF;
+}
+
+.btn-style .btn{
+padding: 10px 42px;
+    color: #FFF;
+    font-family:var(--primary-Font-family) ;
+font-size: 16px;
+font-weight: 700;
+    border-radius: 41px;
+background: #E02C6D;
+border: none;
+
+
+}
+/* Mobile responsive */
+
+@media screen and (max-width:576px){
+  nav {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }  
+  .navbar{
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  ul{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+.navbar li a{
+    font-size: 18px;
+}
+.container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.title{
+
+    font-size: 32px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+.title-desp{
+    text-align: center;
+    width: 100%;
+}
+.btn-style{
+    justify-content: center;
+    
+}
+
+.title-section{
+    padding-right:0 ;
+   
+}
+.container-img{
+    /* width: 40%; */
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.container-img img{
+    width: 100%;
+    margin-top: 50px;
+}
+.container-img svg{
+    width: 100%;
+}
+.header{
+    margin:0;
+}
+
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:990px){
+    nav {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }  
+    .navbar{
+      flex-direction: column;
+      /* align-items: center; */
+    }
+    ul{
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+  .navbar li a{
+      font-size: 18px;
+  }
+  .container{
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      margin: 0 auto;
+     
+      
+  }
+ 
+  .title{
+
+    font-size: 32px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+.title-desp{
+    text-align: center;
+    width: 100%;
+}
+.btn-style{
+    justify-content: center;
+    
+}
+ 
+  
+  .title-section{
+      margin-left:20% ;
+     
+  }
+  .container-img{
+  
+     margin-bottom: 50px;
+  }
+  /* .header{
+    margin:0;
+} */
+.container-img img{
+    width: 90%;
+    margin-top: 40px;
+}
+.container-img svg{
+    width: 100%;
+}
+  
+  }
