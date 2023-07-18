@@ -117,6 +117,258 @@ border: none;
 
 
 }
+
+
+
+/* website-icon */
+.website-icon{
+    /* display: flex; */
+}
+
+
+.website-icon .svg1 {
+    
+    border: 2px solid violet;
+  margin: 60px;
+}
+
+
+
+.website-icon .svg2{
+    
+    border: 2px solid violet;
+  margin: 120px;
+}
+
+.website-icon .svg3 {
+    
+    border: 2px solid violet;
+  margin: 180px;
+}
+
+.website-icon .svg4 {
+    border: 2px solid violet;
+    margin: 210px;
+}
+
+.website-icon .svg5 {
+    
+    border: 2px solid violet;
+    margin: 260px;
+}
+
+.website-icon .svg6 {
+    
+    border: 2px solid violet;
+    margin:290px;
+}
+
+.website-icon .svg7 {
+    
+    border: 2px solid violet;
+    margin: 320px;
+}
+
+
+
+
+
+/* ===============================================features =====================================*/
+.features{
+    margin: 100px 210px;
+   
+    /* overflow-x: hidden; */
+}
+.heading{
+    text-align: center;
+    font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+font-family:var(--primary-Font-family) ;
+color: var( --primary-color);
+}
+.all-boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+   
+    
+}
+.box{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+padding: 15px;
+/* width: 90%; */
+}
+.product-title{
+    color: var(--text-gray-900, #18191F);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+
+}
+.box img{
+    width: 100%;
+}
+.price{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+.product-para{
+    color: var(--gray-50, #787885);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 143%; /* 20.02px */
+letter-spacing: 0.252px;
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+ 
+}
+.rating .fa{
+    color:#FB8200;
+    margin-right: 0.4rem;
+}
+.total-rating{
+    margin-left: 0.6rem;
+    color: #5E6366;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.1px;
+}
+.seemore-arrow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.seemore{
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin-right: 0.6rem;
+}
+.seemore-arrow .fa{
+    color: rgba(224, 44, 109, 0.87);
+   
+}
+
+/*======================================================= featured-products============================================================================ */
+.featured-product{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content:space-between;
+    align-items: center;
+}
+
+.featured-image img{
+border-radius: 7px;
+
+}
+.featured-products-details{
+    padding: 10%;
+}
+
+.featured-products-heading{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 157.895% */
+}
+.featured-products-para{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+}
+.btn-arrow{
+   
+    display: flex;
+
+   margin-top: 2rem;
+    /* justify-content: center; */
+   
+    align-items: center;
+    gap: 8px;
+    background: #E02C6D; 
+    width: max-content;
+    padding: .2rem .8rem;
+   
+   
+}
+.btn-arrow .btn{
+    margin-left: -0.8rem;
+    padding: 10px 24px;
+    border: none;
+    background-color: transparent;
+   color: #FFF;
+}
+.btn-arrow .fa{
+    margin-left: -25px;
+    color: #FFF;
+}
+
+
+/* ========================================foooter============================ */
+footer{
+    background-color: #0A0826;
+    padding: 50px 50px;
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-details{
+    color: var(--text-gray-300, #D9DBE1);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+}
+.footer-icons{
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.footer-icons .fa{
+    margin-right: .6rem;
+}
+.footer-icons >.fa{
+    margin-left: .6rem;
+}
+
+
+/* /////////////////////////////////////++++++++++++++++++++++++++++++++========================================== */
+
 /* Mobile responsive */
 
 @media screen and (max-width:576px){
@@ -183,8 +435,60 @@ border: none;
     margin:0;
 }
 
+/* features */
+.all-boxes{
+  
+    grid-template-columns: repeat(1,1fr);
+    
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    /* align-items: center; */
+     /* overflow-x: hidden; */
 }
-/* medium device */
+.heading{
+    font-size: 26px;
+ }
+ .features{
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; */
+}
+/* .........................fetured products----------- */
+.featured-product{
+    flex-direction: column-reverse;
+    width: 97%;
+    text-align: center;
+   
+}
+.featured-product img{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.featured-products-heading{
+  
+    font-size: 28px;
+    margin-bottom: 1rem;
+   
+    line-height: 37px; /* 157.895% */
+}
+.btn-arrow{
+    
+   margin: 0 auto;
+   margin-top: .9rem;
+}
+}
+
+
+
+
+/* /////////////////////////////////* medium device //////////////////////////////////888888888888888888888888888888888888888//////////////////////// */
+
 @media screen and (min-width:576px) and (max-width:990px){
     nav {
       flex-direction: column;
@@ -233,7 +537,7 @@ border: none;
  
   
   .title-section{
-      margin-left:20% ;
+      padding:0 ;
      
   }
   .container-img{
@@ -250,5 +554,52 @@ border: none;
 .container-img svg{
     width: 100%;
 }
+/* fetures */
+.all-boxes{
   
-  }
+    grid-template-columns: repeat(2,1fr);
+    
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading{
+   font-size: 26px;
+}
+.features{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* .........................fetured products----------- */
+.featured-product{
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+   
+}
+.featured-products-details{
+    width: 70%;
+    padding: 6%;
+}
+.featured-product img{
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.featured-products-heading{
+  
+    font-size: 28px;
+    margin-bottom: 1rem;
+   
+    line-height: 37px; /* 157.895% */
+}
+.btn-arrow{
+    
+   margin: 0 auto;
+   margin-top: .9rem;
+}
+}
